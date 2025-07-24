@@ -1,0 +1,24 @@
+databricks_runtime: client.2.5
+flavors:
+  python_function:
+    cloudpickle_version: 3.0.0
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.11.10
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: null
+model_size_bytes: 4075
+model_uuid: 6585df9a766e47d39ed7c09090918bfc
+prompts: null
+signature:
+  inputs: '[{"type": "string", "name": "query", "required": true}]'
+  outputs: null
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-04 06:59:02.607092'
