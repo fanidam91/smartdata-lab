@@ -1,0 +1,12 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "query"
+    ],
+    "data": [
+      [
+        "What are your key technical skills?"
+      ]
+    ]
+  }
+}
